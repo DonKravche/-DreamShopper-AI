@@ -1,0 +1,21 @@
+# Ignore the configuration file containing the API Key
+popup.js
+# Or if you moved your key to a separate file:
+config.js
+secrets.json
+
+# System files
+.DS_Store
+Thumbs.db
+node_modules/
+
+# AWS / Amazon API Keys
+.env
+
+# Dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

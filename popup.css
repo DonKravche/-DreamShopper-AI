@@ -1,0 +1,101 @@
+:root {
+  --primary: #1a73e8;
+  --amazon-gold: #f0c14b;
+  --bg-light: #f8f9fa;
+  --text-dark: #202124;
+}
+
+body {
+  width: 350px;
+  font-family: 'Inter', -apple-system, sans-serif;
+  margin: 0;
+  background: var(--bg-light);
+}
+
+.header {
+  background: white;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 800;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  color: var(--primary);
+}
+
+/* Tab Styling */
+.tabs {
+  display: flex;
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+
+.tab-btn {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-weight: 600;
+  color: #5f6368;
+  transition: 0.2s;
+}
+
+.tab-btn.active {
+  color: var(--primary);
+  border-bottom: 3px solid var(--primary);
+}
+
+/* Content Area */
+.page {
+  padding: 20px;
+}
+
+button#checkDeal,
+button#startSnipe {
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Deal Cards */
+.deal-card {
+  background: white;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.discount-tag {
+  background: #cc0c39;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: bold;
+  width: fit-content;
+}
+
+.deal-name {
+  font-size: 13px;
+  margin: 0;
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.snipe-buy-btn {
+  background: var(--amazon-gold);
+  border: 1px solid #a88734;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}

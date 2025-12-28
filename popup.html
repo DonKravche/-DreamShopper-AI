@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DreamShopper AI</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="header">🚀 DreamShopper AI</div>
+
+    <div class="tabs">
+      <button id="tabAnalyze" class="tab-btn active">Analyze Page</button>
+      <button id="tabSnipe" class="tab-btn">Snipe Sales</button>
+    </div>
+
+    <div id="analyzePage" class="page">
+      <input
+        type="password"
+        id="apiKey"
+        placeholder="Paste Gemini API Key here"
+      />
+      <button id="checkDeal">Analyze Current Product</button>
+      <div id="result"></div>
+    </div>
+
+    <div id="snipePage" class="page" style="display: none">
+      <div class="snipe-controls">
+        <select id="categorySelect">
+          <option value="electronics">Electronics</option>
+          <option value="fashion">Fashion</option>
+          <option value="home">Home & Kitchen</option>
+        </select>
+        <button id="startSnipe">Start Sniping</button>
+      </div>
+      <div id="snipeList"></div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
