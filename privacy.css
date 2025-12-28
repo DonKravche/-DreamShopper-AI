@@ -1,0 +1,38 @@
+h1 {
+    color: #1a73e8;
+    border-bottom: 2px solid #f1f3f4;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #202124;
+    margin-top: 30px;
+    font-size: 1.4em;
+}
+
+p,
+li {
+    margin-bottom: 15px;
+}
+
+.last-updated {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.footer-link {
+    margin-top: 50px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+    text-align: center;
+}
+
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
